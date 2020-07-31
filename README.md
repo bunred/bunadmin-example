@@ -2,15 +2,14 @@
 
 Using BunAdmin as a npm package
 
-## How to use
-```
-git clone https://github.com/bunred/bunadmin-example.git bunadmin
-cd bunadmin
-yarn
+## Quick Start
 
-cp e.g./plugins-info.json plugins-info.json
-node plugins-update.js
-yarn dev
+```shell script
+yarn create react-app my-admin --template bunadmin
+cd my-admin
+yarn update-plugins && yarn dev
 ```
+
+Open [http://localhost:1911/](http://localhost:1911/)
 
 See more on [bunadmin](https://github.com/bunred/bunadmin)

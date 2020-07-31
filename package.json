@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm explore @bunred/bunadmin -- next dev -p 1911",
-    "build": "npm explore @bunred/bunadmin -- next build",
-    "start": "npm explore @bunred/bunadmin -- next start -p 1912",
+    "dev": "cd node_modules/@bunred/bunadmin && next dev -p 1911",
+    "build": "cd node_modules/@bunred/bunadmin && next build",
+    "start": "cd node_modules/@bunred/bunadmin && next start -p 1912",
     "update-plugins": "yarn --froce && node plugin-update.js"
   },
   "dependencies": {
@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "@bunred/sync-plugins": "^1.1.1",
-    "babel-loader": "^8.1.0",
     "prettier": "1.19.1",
     "typescript": "^3.9.3"
   },
