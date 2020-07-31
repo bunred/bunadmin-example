@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm explore @bunred/bunadmin -- next dev -p 1911",
     "build": "npm explore @bunred/bunadmin -- next build",
-    "start": "npm explore @bunred/bunadmin -- next start -p 1912"
+    "start": "npm explore @bunred/bunadmin -- next start -p 1912",
+    "update-plugins": "yarn --froce && node plugin-update.js"
   },
   "dependencies": {
-    "@bunred/bunadmin": "^1.1.0-alpha.3",
-    "bunadmin-plugin-auth": "^1.0.0-alpha.3"
+    "@bunred/bunadmin": "^1.1.0-alpha.5"
   },
   "devDependencies": {
     "@bunred/sync-plugins": "^1.1.1",
